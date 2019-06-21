@@ -1,0 +1,7 @@
+h1 {
+  position:relative;
+  color:green;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
