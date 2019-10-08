@@ -1,18 +1,38 @@
- div {
+ .App {
   position:relative;
+  width:100%;
   border-style: solid;
   border-color: red;
+  padding:20px;
+}
 
-  h1 {
-    position: relative;
-    text-decoration: underline;
-    color:purple;
+header {
+  postion:relative;
+  text-align: center;
+  width:100%;
+  .logo{
+    width:20%;
   }
+}
 
-  span {
-    position: relative;
-    font-family: monospace;
-    color:green;
+nav {
+  position: relative;
+  width:100%;
+}
+
+.boardContainer {
+  postion:relative;
+  width:100%;
+  display: flex;
+  padding:2%;
+  justify-content: space-evenly;
+
+  .board {
+    width:100%;
+    padding:2%;
+    .title {
+      color:blue;
+      text-align: center;
+    }
   }
-
 }

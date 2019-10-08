@@ -8,10 +8,21 @@ export default class App extends Component {
 
   render() {
     return (
-      <div className="App">
-          <h1> What is your next move </h1>
-          <span> hol a todos </span>
-      </div>
+      <main className="App">
+          <header> <img className="logo" src="" alt="aternate tex" / ></header>
+           <nav>| the logo  Many, Many, Many, Many, Many, Elements |</nav> 
+          <section className="boardContainer">
+            <section className="board">
+              <h3 className="title"> section 1 </h3>
+              <li> tassk information </li>
+              <li> tassk information </li>
+              <li> tassk information </li>
+              <li> tassk information </li>
+          </section>
+            <section className="board"> <h3 className="title">section 2 </h3></section>
+          </section>
+
+      </main>
     )
   }
 }
