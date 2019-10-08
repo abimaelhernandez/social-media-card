@@ -13,11 +13,11 @@ module.exports = {
         use: ['babel-loader'],
         exclude: /node_modules|packages/,
       },
-      {
-        test: /\.jsx?$/,
-        exclude: /node_modules/,
-        use: ['eslint-loader'],
-      },
+      // {
+      //   test: /\.jsx?$/,
+      //   exclude: /node_modules/,
+      //   use: ['eslint-loader'],
+      // },
       {
         test: /\.scss$/,
         use: [{

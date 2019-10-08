@@ -1,0 +1,144 @@
+
+/*reset*/
+* {margin: 0;padding: 0}
+body {
+  line-height:
+  1;font-size: 14px;font-family:'regular', sans-serif; color: #555;-webkit-text-size-adjust: 100%;-webkit-font-smoothing: antialiased;font-style: normal}
+table {border-collapse: collapse;border-spacing: 0}
+fieldset, img, abbr, acronym, fieldset-img, table {border: 0 none}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {display: block}
+ol, ul, menu {list-style: none}
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: normal;
+}
+
+a {text-decoration: none;cursor: pointer; color: #555}
+em {font-style: normal; font-family: 'italic', sans-serif}
+b { font-family: 'bold', sans-serif}
+img {border: none; display: block}
+
+header .logo-container{
+  position:relative;
+  width:10%;
+  height:inherit;
+  float:left;
+  padding:10px 10px 10px 0px;
+}
+
+.logo-container a img {
+  width: 100%;
+  height:100%;
+}
+
+.search-container {
+ position:relative;
+ float:right;
+ width:30%;
+ padding:10px 0px 10px 10px;
+}
+
+legend {
+  display:none;
+}
+
+label{
+  display:none;
+}
+
+.cart-container {
+  position:relative;
+  display:inline;
+  width:30%;
+  float:right;
+  padding:10px;
+  font-size:1.2em
+}
+
+/* .busca {
+  float:right;
+} */
+select {
+  display:none;
+}
+
+nav {
+  width:80%;
+  position:relative:
+  display:flex;
+  float:right;
+  justify-content:space-around;
+  padding:20px 30px 10px 0px;
+  border-top:ridge;
+}
+
+nav ul {
+  position:relative;
+  padding: 3px 0px;
+  margin: 0;
+  display: flex;
+  font-size:1.3em
+}
+
+nav ul .dropdown {
+  position:relative;
+  padding:3px 0px 0px 0px;;
+  margin: 0;
+  list-style: none;
+/*   display: flex; */
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:transparent;
+  color: black;
+  padding: 5px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.abi-footer{
+  position:relative;
+  width:100%;
+  display:none;
+}
+
+/* ======== product registration form ========== */
+
+#a-product-registration-container {
+  width:100%;
+  position:relative;
+  padding:20px;
+  top:130px;
+}
